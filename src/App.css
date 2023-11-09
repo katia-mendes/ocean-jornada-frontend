@@ -5,7 +5,12 @@ padding: 2rem;
 text-align: center;
 box-shadow: 0.25rem 0.25rem black;
 background: #f8f8f8;
+transition: all 0.1s ease-in out;
 
+}
+
+.card hover {
+    box-shadow:  0.25rem 0.25rem black;
 }
 
 .card > h2{
@@ -13,5 +18,9 @@ font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .card > img {
-    
+    border-radius: 1rem;
+    translate : -0.25rem -0.25rem;
+    box-shadow: 0.25rem 0.25rem #FEA6CA;
+
+
 }
